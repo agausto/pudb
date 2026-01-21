@@ -2498,6 +2498,7 @@ Error with jump. Note that jumping only works on the topmost stack frame.
 
             content.listen("enter", enter)
             content.listen("esc", esc)
+            content.listen("q", enter)
 
         # Results get wrapped in tuples because the main loop considers the truthiness
         # of the value. Once wrapped in a tuple, (False,) is still truthy.
